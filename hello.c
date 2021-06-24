@@ -13,4 +13,5 @@
 void main()
 {
     printf("Hello world");
+    printf("Karthika is not funny");
 }
