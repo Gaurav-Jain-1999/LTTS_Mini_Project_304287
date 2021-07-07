@@ -31,7 +31,7 @@ void modifyrecord()
 	{
 	    system("cls");
 		printf("\nEnter CONTACT'S NAME TO MODIFY:\n");
-            got(name);
+            gets(name);
             while(fread(&p,sizeof(p),1,f)==1)
             {
                 if(strcmp(name,p.name)==0)

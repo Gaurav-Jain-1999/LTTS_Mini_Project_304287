@@ -17,7 +17,7 @@ void addrecord()
     FILE *f;
     struct person p;
     f=fopen("project","ab+");
-    printf("\n Enter name: ");
+    printf("\nEnter name: ");
     gets(p.name);
     printf("\nEnter the address: ");
     gets(p.address);
@@ -26,8 +26,8 @@ void addrecord()
     printf("\nEnter mother name: ");
     gets(p.mother_name);
     printf("\nEnter phone no.: ");
-    scanf("%ld",&p.mble_no);
-    printf("Enter sex: ");
+    scanf("%lf",&p.mble_no);
+    printf("\nEnter sex: ");
     gets(p.sex);
     printf("\nEnter e-mail: ");
     gets(p.mail);
@@ -35,7 +35,7 @@ void addrecord()
     gets(p.citision_no);
     fwrite(&p,sizeof(p),1,f);
     fflush(stdin);
-    printf("\nRecord saved");
+    printf("\n\nRecord saved");
     fclose(f);
     printf("\n\nEnter any key");
 	getch();
