@@ -11,17 +11,16 @@ else
    endif
 endif
 
-PROJ_NAME = Stack
-TEST_PROJ_NAME = Test_$(PROJ_NAME)
+PROJ_NAME = phonebook
+TEST_PROJ_NAME = $(PROJ_NAME)
 
 BUILD_DIR = Build
 
-SRC = stack.c
+SRC = src/addrecord.c src/back.c src/delete.c src/listr.c src/main.c src/menu.c src/modify.c src/search.c src/start.c 
+#TEST_SRC = test_stack.c\
+#unity/unity.c
 
-TEST_SRC = test_stack.c\
-unity/unity.c
-
-INC = -Iunity
+INC = inc/phonebook.h #unity/unity.h
 
 all: $(SRC) $(TEST_SRC) $(BUILD_DIR)
 	gcc $(SRC) $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
