@@ -1,3 +1,4 @@
+ 
 /**
  * @file listrecord.c
  * @author your name (you@domain.com)
@@ -25,9 +26,8 @@ while(fread(&p,sizeof(p),1,f)==1)
 {
      printf("\n\n\n YOUR RECORD IS\n\n ");
      printf("\nName=%s\nAdress=%s\nFather name=%s\nMother name=%s\nMobile no=%ld\nSex=%s\nE-mail=%s\nCitizen no=%s",p.name,p.address,p.father_name,p.mother_name,p.mble_no,p.sex,p.mail,p.citision_no);
-
-	 getch();
-	 system("cls");
+	getch();
+	system("cls");
 }
 fclose(f);
 printf("\n Enter any key");

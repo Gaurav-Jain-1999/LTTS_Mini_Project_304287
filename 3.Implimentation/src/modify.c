@@ -23,7 +23,7 @@ void modifyrecord()
 		{
 
 			printf("CONTACT'S DATA NOT ADDED YET.");
-			exit(1);
+			menu();
 
 
 		}
@@ -48,7 +48,7 @@ void modifyrecord()
                     printf("\nEnter mother name: ");
                     gets(s.mother_name);
                     printf("\nEnter phone no: ");
-                    scanf("%ld",&s.mble_no);
+                    scanf("%lf",&s.mble_no);
                     printf("\nEnter sex: ");
                     gets(s.sex);
                     printf("\nEnter e-mail: ");

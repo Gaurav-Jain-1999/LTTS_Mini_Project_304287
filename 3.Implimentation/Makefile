@@ -21,8 +21,9 @@ SRC = src/addrecord.c src/back.c src/delete.c src/listr.c src/main.c src/menu.c 
 #unity/unity.c
 
 INC = inc/phonebook.h #unity/unity.h
+#$(TEST_SRC)
 
-all: $(SRC) $(TEST_SRC) $(BUILD_DIR)
+all: $(SRC) $(BUILD_DIR)
 	gcc $(SRC) $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 run: all
