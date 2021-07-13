@@ -1,7 +1,7 @@
 /**
  * @file addrecord.c
- * @author your name (you@domain.com)
- * @brief 
+ * @author Gaurav Jain  (jgauravd@gmail.com)
+ * @brief add_Record_file
  * @version 0.1
  * @date 2021-07-07
  * 
@@ -16,7 +16,7 @@ void addrecord()
     system("cls");
     FILE *f;
     struct person p;
-    f=fopen("project","ab+");
+    f=fopen("project.txt","w");
     printf("\nEnter name: ");
     gets(p.name);
     printf("\nEnter the address: ");
@@ -28,11 +28,11 @@ void addrecord()
     printf("\nEnter phone no.: ");
     scanf("%lf",&p.mble_no);
     printf("\nEnter sex: ");
-    gets(p.sex);
+    scanf("%s",p.sex);
     printf("\nEnter e-mail: ");
-    gets(p.mail);
+    scanf("%s",p.mail);
     printf("\nEnter citizen no: ");
-    gets(p.citision_no);
+    scanf("%s",p.citision_no);
     fwrite(&p,sizeof(p),1,f);
     fflush(stdin);
     printf("\n\nRecord saved");

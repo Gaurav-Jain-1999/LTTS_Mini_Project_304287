@@ -1,7 +1,7 @@
 /**
  * @file delete.c
- * @author your name (you@domain.com)
- * @brief 
+ * @author Gaurav Jain (jgauravd@gmail.com)
+ * @brief  Delelte_Record
  * @version 0.1
  * @date 2021-07-07
  * 
@@ -17,7 +17,7 @@ void deleterecord()
     FILE *f,*ft;
 	int flag;
 	char name[100];
-	f=fopen("project","rb");
+	f=fopen("project.txt","r");
 	if(f==NULL)
 		{
 
@@ -26,7 +26,7 @@ void deleterecord()
 		}
 	else
 	{
-		ft=fopen("temp","wb+");
+		ft=fopen("temp","w+");
 		if(ft==NULL)
 
             printf("file opaning error");
@@ -54,8 +54,8 @@ void deleterecord()
 	}
 	else
 		{
-			remove("project");
-			rename("temp.txt","project");
+			remove("project.txt");
+			rename("temp.txt","project.txt");
 			printf("RECORD DELETED SUCCESSFULLY.");
 
 		}

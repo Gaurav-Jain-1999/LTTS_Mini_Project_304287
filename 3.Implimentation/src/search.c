@@ -17,7 +17,7 @@ struct person p;
 FILE *f;
 char name[100];
 
-f=fopen("project","rb");
+f=fopen("project","r");
 if(f==NULL)
 {
     printf("\n error in opening\a\a\a\a");

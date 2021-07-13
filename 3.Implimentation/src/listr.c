@@ -16,7 +16,7 @@ void listrecord()
 {
 struct person p;
 FILE *f;
-f=fopen("project","rb");
+f=fopen("project.txt","r");
 if(f==NULL)
 {
 printf("\nfile opening error in listing :");

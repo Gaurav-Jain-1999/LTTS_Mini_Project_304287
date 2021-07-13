@@ -18,11 +18,11 @@ void modifyrecord()
     int flag=0;
     struct person p,s;
 	char  name[50];
-	f=fopen("project","rb+");
+	f=fopen("project.txt","r+");
 	if(f==NULL)
 		{
 
-			printf("CONTACT'S DATA NOT ADDED YET.");
+			printf("NO DATA ADDED YET.");
 			menu();
 
 
@@ -34,11 +34,8 @@ void modifyrecord()
             gets(name);
             while(fread(&p,sizeof(p),1,f)==1)
             {
-                if(strcmp(name,p.name)==0)
+                if(strcmp(name,p.name)==1)
                 {
-
-
-
                     printf("\n Enter name: ");
                     gets(s.name);
                     printf("\nEnter the address: ");
@@ -50,20 +47,18 @@ void modifyrecord()
                     printf("\nEnter phone no: ");
                     scanf("%lf",&s.mble_no);
                     printf("\nEnter sex: ");
-                    gets(s.sex);
+                    scanf("%s",s.sex);
                     printf("\nEnter e-mail: ");
-                    gets(s.mail);
+                    scanf("%s",s.mail);
                     printf("\nEnter citizen no: \n");
                     gets(s.citision_no);
                     fseek(f,-sizeof(p),SEEK_CUR);
                     fwrite(&s,sizeof(p),1,f);
                     flag=1;
                     break;
-
-
-
                 }
                 fflush(stdin);
+                
 
 
             }
@@ -75,6 +70,8 @@ void modifyrecord()
             else
             {
                     printf(" \n data is not found");
+                    printf("\n Add new data");
+                    addrecord();
 
             }
             fclose(f);
