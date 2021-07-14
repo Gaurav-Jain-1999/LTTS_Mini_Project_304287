@@ -14,27 +14,29 @@ Following are some of the advantages:
 3. It is easier to update/modify/delete contacts and information this digital phonebook.
 
 
+# SWOT Analysis
 
 
 # 4W's and 1'H
 
 # Who
 
-For anyone who is intrested in improving their knowledge and checking their general knowlege.
+For anyone who is intrested in maintaing a records of basic personal informtaion of their near and dear ones.
 
 # What
 
-Mobile softwares can use this code to in build this fun game and also in school competitions etc.
+Mobile softwares can use this code to build a comprehensive and full fledged phonebook.
 
 # Where
 
-School Competition and in mobile applications and in websites.
+Laptops and Mobile Applications
 
 # When
 
-this application helps in track of keeping the report and record your data has manually it becomes a tedeous job to do so.
+This application helps to keep track of and record your data has manually it becomes a tedeous job to do so.
 
 # How
 
-Run the application, fill the inputs asked on the console and get your brains in action and check if you are good at GK;)
+Run application and follow the program by filling the various inputs.
+
 
