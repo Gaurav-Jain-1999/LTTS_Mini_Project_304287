@@ -3,8 +3,8 @@ TESTING PROCESS:
 
 | **Test ID** | **Description**| **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |
 |-------------|----------------|-------------|-------------|----------------|------------------|  
-| HR01 |Able to select the from the appropriate datt file| Data| Data Input| Pass | Functional |
-| HR02 |Error Rectification Due to path of the filrs| None | Data input| Pass | Non-Functional|
+| HR01 |Able to select the from the appropriate datat file| Data| Data Input| Pass | Functional |
+| HR02 |Error Rectification Due to path of the files| None | Data input| Pass | Non-Functional|
 | Hr03 | Add/Modify/delete/list data from file when appropriate input is detected | Data Updatation| Data | Pass | Fuctional |
 
 ## Table no: Low level test plan
