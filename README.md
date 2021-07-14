@@ -11,6 +11,10 @@
 
 [![Git Inspector](https://github.com/Gaurav-Jain-1999/LTTS_Mini_Project_304287/actions/workflows/Git_Inspector.yml/badge.svg)](https://github.com/Gaurav-Jain-1999/LTTS_Mini_Project_304287/actions/workflows/Git_Inspector.yml)
 
+[![Valgrind-Dynamic Code Quality Analysis](https://github.com/Gaurav-Jain-1999/LTTS_Mini_Project_304287/actions/workflows/Dynamic.yml/badge.svg)](https://github.com/Gaurav-Jain-1999/LTTS_Mini_Project_304287/actions/workflows/Dynamic.yml)
+
+[![C CI - Build Status on Linux](https://github.com/Gaurav-Jain-1999/LTTS_Mini_Project_304287/actions/workflows/Linux_Build.yml/badge.svg)](https://github.com/Gaurav-Jain-1999/LTTS_Mini_Project_304287/actions/workflows/Linux_Build.yml)
+
 ## o Folder Structure
 |       Folder        |             Description             | 
 |---------------------|:-----------------------------------:|
