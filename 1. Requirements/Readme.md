@@ -15,6 +15,7 @@ Following are some of the advantages:
 
 
 # SWOT Analysis
+![image](https://user-images.githubusercontent.com/74864052/125620292-97bd75f2-a6bd-4923-bc37-599d0d58df20.png)
 
 
 # 4W's and 1'H
