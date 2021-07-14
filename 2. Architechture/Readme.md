@@ -2,7 +2,7 @@
 # Menu
 ![image](https://user-images.githubusercontent.com/74864052/125624908-1945fefe-f76e-4df1-90a1-3c9070d2ad41.png)
 
-#Add Record 
+# Add Record 
 
 ![image](https://user-images.githubusercontent.com/74864052/125625012-4fbda8f7-30c5-4e36-bed8-fb5d4846bfaf.png)
 
