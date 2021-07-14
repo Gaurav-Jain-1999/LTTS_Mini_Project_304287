@@ -1,4 +1,13 @@
-//#include "unity.h"
+/**
+ * @file test_phonebook.c
+ * @author Gaurav Jain (jgauravd@gmail.com)
+ * @brief  unity_testing
+ * @version 0.1
+ * @date 2021-07-14
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "../unity/unity.h"
 #include "../unity/unity_internals.h"
 #include "../inc/phonebook.h"
@@ -10,7 +19,6 @@ void tearDown(){}
 // TEST CASES IN THIS ARE ALL PASSED//
 void test_menu(void)
 {
-  //TEST_ASSERT_EQUAL_FLOAT(5.0,edit_score(5.0,"karthika"));
   TEST_PASS();
   
 }
@@ -27,19 +35,16 @@ void test_modify_record(void)
 }
 void test_list(void)
 {
-  //TEST_ASSERT_EQUAL(5.0, show_record("karthika"));
   TEST_PASS();
   
 }
 void test_search(void)
 {
-  //TEST_ASSERT_EQUAL(5.0, show_record("karthika"));
   TEST_PASS();
   
 }
 void test_start(void)
 {
-  //TEST_ASSERT_EQUAL(5.0, show_record("karthika"));
   TEST_PASS();
   
 }
