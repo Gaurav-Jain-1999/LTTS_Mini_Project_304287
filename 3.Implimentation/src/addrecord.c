@@ -38,7 +38,7 @@ void addrecord()
     printf("\n\nRecord saved");
     fclose(f);
     printf("\n\nEnter any key");
-	getc();
+	getc(stdin);
     system("cls");
     menu();
 }

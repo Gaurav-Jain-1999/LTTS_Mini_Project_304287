@@ -38,7 +38,7 @@ while(fread(&p,sizeof(p),1,f)==1)
 }
 fclose(f);
 printf("\n Enter any key");
-getc();
+getc(stdin);
 system("cls");
 menu();
 }
