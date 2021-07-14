@@ -21,7 +21,6 @@ TEST_SRC = testfile/test_phonebook.c
 unity/unity.c
 
 INC = inc/phonebook.h unity/unity.h
-$(TEST_SRC)
 
 all: $(SRC) $(BUILD_DIR)
 	gcc $(SRC) $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
