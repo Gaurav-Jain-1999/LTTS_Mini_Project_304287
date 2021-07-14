@@ -70,7 +70,7 @@ void modifyrecord()
             fclose(f);
 	}
 	 printf("\n Enter any key");
-	 getch();
+	 getc();
      system("cls");
 	 menu();
 

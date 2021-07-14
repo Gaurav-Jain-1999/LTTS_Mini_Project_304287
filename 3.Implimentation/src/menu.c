@@ -30,7 +30,7 @@ switch(getch())
                 system("cls");
                 printf("\nEnter choices 1 to 6 only");
                 printf("\n\nEnter any key");
-                getch();
+                getc();
                 menu();
 }
 }

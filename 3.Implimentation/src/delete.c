@@ -62,7 +62,7 @@ void deleterecord()
 	}
 }
     printf("\n Enter any key");
-    getch();
+    getc();
     system("cls");
     menu();
 }
