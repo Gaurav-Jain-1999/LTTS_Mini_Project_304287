@@ -13,28 +13,25 @@
 
 void modifyrecord()
 {
-    int c;
     FILE *f;
     int flag=0;
     struct person p,s;
 	char  name[50];
 	f=fopen("project.txt","r+");
-	if(f==NULL)
+	if(f==NULL || fread(&p,sizeof(p),1,f)==0)
 		{
 
 			printf("NO DATA ADDED YET.");
 			menu();
-
-
 		}
 	else
 	{
 	    system("cls");
 		printf("\nEnter CONTACT'S NAME TO MODIFY:\n");
-            gets(name);
-            while(fread(&p,sizeof(p),1,f)==1)
+            scanf("%s",name);
+            while(fread(&p,sizeof(p),1,f)>0)
             {
-                if(strcmp(name,p.name)==1)
+                if(strcmp(name,p.name)==0)
                 {
                     printf("\n Enter name: ");
                     gets(s.name);
@@ -58,27 +55,23 @@ void modifyrecord()
                     break;
                 }
                 fflush(stdin);
-                
-
-
+              
             }
             if(flag==1)
             {
                 printf("\n your data id modified");
-
             }
             else
             {
                     printf(" \n data is not found");
                     printf("\n Add new data");
                     addrecord();
-
             }
             fclose(f);
 	}
 	 printf("\n Enter any key");
 	 getch();
-    system("cls");
-	menu();
+     system("cls");
+	 menu();
 
 }
