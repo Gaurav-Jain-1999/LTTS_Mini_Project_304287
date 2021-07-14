@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "../unity/unity.h"
-#include "../unity/unity_internals.h"
-#include "../inc/phonebook.h"
+#include "unity/unity.h"
+#include "unity/unity_internals.h"
+#include "inc/phonebook.h"
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
