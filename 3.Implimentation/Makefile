@@ -17,8 +17,7 @@ TEST_PROJ_NAME = $(PROJ_NAME)
 BUILD_DIR = Build
 
 SRC = src/addrecord.c src/back.c src/delete.c src/listr.c src/main.c src/menu.c src/modify.c src/search.c src/start.c 
-TEST_SRC = testfile/test_phonebook.c
-unity/unity.c
+TEST_SRC = testfile/test_phonebook.c unity/unity.c
 
 INC = inc/phonebook.h unity/unity.h
 
